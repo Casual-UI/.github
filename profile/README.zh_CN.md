@@ -2,51 +2,49 @@
 
 <img src="./packages/vue/docs/.vuepress/public/logo.svg" style="width: 200px;" />
 
-## Introduction
+## 介绍
 
-A components lib for React17, Vue3, Svelte3
+一个支持 React17, Vue3, Svelte3 的组件库
 
-[简体中文](./README.zh_CN.md)
+## 功能特性
 
-## Features
+- 超小的代码体积
+- 使用 TS 编写
+- 支持暗黑模式
+- 支持主题定制
+- 强大且灵活的表单
 
-- Small size
-- Written in TS
-- Support for dark mode
-- Support for customize theme color
-- Strong and flexible config form
+## 在线示例 & 文档
 
-## Online Demos & Docs
+- [Casual UI - React](https://casual-ui-react.donsen.site/) （目前仅有中文）
+- [Casual UI - Vue](https://casual-ui-vue.donsen.site/) （目前仅有中文）
+- [Casual UI - Svelte](https://casual-ui-svelte.donsen.site/) （目前仅有英文）
 
-- [Casual UI - React](https://casual-ui-react.donsen.site/)
-- [Casual UI - Vue](https://casual-ui-vue.donsen.site/)
-- [Casual UI - Svelte](https://casual-ui-svelte.donsen.site/) 
+## 安装 & 使用
 
-## Install
+### Vue3+ 用户
 
-### For Vue3+ users
-
-- install
+- 安装依赖
 
 ```sh
 npm install casual-ui-vue
 ```
 
-- global use
+- 全局使用
 
 ```js
 import { createApp } from 'vue'
 import CasualUI from 'casual-ui-vue'
-import 'casual-ui-vue/dist/style.css'
+import 'casual/style.css'
 
 const app = createApp()
 app.use(CasualUI)
 app.mount('#app')
 ```
 
-- single use
+- 按需使用
 
-**Notice：single usage also need import style**
+**注意：按需使用也需要导入样式**
 
 ```vue
 <!-- SomeComponent.vue -->
@@ -54,62 +52,62 @@ app.mount('#app')
 import { CButton } from 'casual-ui-vue'
 </script>
 <template>
-  <c-button label="A Button" />
+  <c-button label="一个按钮" />
 </template>
 ```
 
-### For React17+ users
+### React17+用户
 
-- install
+- 安装依赖
 
 ```sh
 npm install casual-ui-react
 ```
 
-- import styles in your entry file
+- 入口文件导入样式
 
 ```js
-import 'casual-ui-react/dist/style.css'
+import 'casual-ui-svelte/dist/style.css'
 ```
 
-- usage
+- 使用
 
 ```js
 import { CButton } from 'casual-ui-react'
 
 function SomeComponent() {
-  return <CButton label="A Button" />
+  return <CButton label="一个按钮" />
 }
 ```
 
-### For Svelte3+ users
+### Svelte3+ 用户
 
-- install
+- 安装依赖
 
 ```sh
 npm install -D casual-ui-svelte
 ```
 
-- import styles in your entry file
+- 入口文件导入样式
 
 ```js
 import 'casual-ui-svelte/style.css'
 ```
 
-- use in .svelte files
+- 在.svelte 文件中使用
 
 ```html
 <script>
   import { CButton } from 'casual-ui-svelte'
 </script>
-<CButton label="A Button" />
+<CButton label="一个按钮" />
 ```
 
-## Contributing
+## 参与贡献
 
-[CONTRIBUTING](./CONTRIBUTING.md)
+[贡献指南](./CONTRIBUTING.md)
 
-## Thanks
+## 鸣谢
 
 ![Vue](./badges/vue.svg)
 ![Vite](./badges/vite.svg)
@@ -123,8 +121,7 @@ import 'casual-ui-svelte/style.css'
 ![Javascript](./badges/javascript.svg)
 ![Docusaurus](./badges/docusaurus.svg)
 ![VSCode](./badges/vscode.svg)
-![Svelte](./badges/svelte.svg)
 
-## LICENSE
+## 协议
 
 [MIT](./LICENSE)
