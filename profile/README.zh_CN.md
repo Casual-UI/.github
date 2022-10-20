@@ -1,6 +1,6 @@
 # Casual UI
 
-<img src="./packages/vue/docs/.vuepress/public/logo.svg" style="width: 200px;" />
+<img src="./logo.svg" style="width: 200px;" />
 
 ## 介绍
 
