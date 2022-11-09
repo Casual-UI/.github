@@ -14,4 +14,4 @@ A components lib for React17, Vue3, Svelte3
 
 ## LICENSE
 
-[MIT](./LICENSE)
+MIT
