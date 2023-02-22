@@ -10,7 +10,7 @@ A components lib for React17, Vue3, Svelte3
 
 - [Casual UI - Svelte](https://svelte.casual-ui.site/) 
 - [Casual UI - Vue](https://vue.casual-ui.site/)
-- [Casual UI - React](https://casual-ui-react.donsen.site/)
+- [Casual UI - React](https://react.casual-ui.site/)
 
 ## LICENSE
 
