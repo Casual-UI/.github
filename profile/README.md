@@ -4,7 +4,7 @@
 
 ## Introduction
 
-A components lib for React17, Vue3, Svelte3
+A components lib for Vue3+ and Svelte3+
 
 ## Online Demos & Docs
 
