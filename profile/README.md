@@ -4,10 +4,11 @@
 
 ## Introduction
 
-A components lib for Vue3+ and Svelte3+
+A components lib for React17+, Vue3+ and Svelte3+
 
 ## Online Demos & Docs
 
+- [Casual UI - React](https://react.casual-ui.site/)
 - [Casual UI - Svelte](https://svelte.casual-ui.site/) 
 - [Casual UI - Vue](https://vue.casual-ui.site/)
 
